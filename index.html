@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Coding With Mamta – Learn Python, JavaScript, React, Web Dev & more. Free resources, tutorials, and downloads for every level." />
+  <meta name="keywords" content="coding, programming, Python, JavaScript, React, web development, tutorials, free resources" />
+  <meta name="author" content="Coding With Mamta" />
+  <title>Coding With Mamta | Learn. Build. Level Up. 🚀</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated Background Particles -->
+  <div class="particles-container" id="particles"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <div class="logo" id="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Coding<span class="logo-accent">With</span>Mamta</span>
+      </div>
+      <nav class="nav" id="main-nav" aria-label="Main navigation">
+        <a href="#hero" class="nav-link" id="nav-home">Home</a>
+        <a href="#videos" class="nav-link" id="nav-videos">Videos</a>
+        <a href="#about" class="nav-link" id="nav-about">About</a>
+        <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+      </nav>
+      <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-primary header-cta" id="header-yt-btn">
+        <span class="btn-icon">▶</span> Subscribe
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#hero" class="mobile-nav-link" id="mnav-home">Home</a>
+      <a href="#videos" class="mobile-nav-link" id="mnav-videos">Videos</a>
+      <a href="#about" class="mobile-nav-link" id="mnav-about">About</a>
+      <a href="#contact" class="mobile-nav-link" id="mnav-contact">Contact</a>
+      <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-primary mobile-yt-btn" id="mnav-yt-btn">▶ Subscribe</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-content float-anim" id="hero-content">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span> Now Live on YouTube
+      </div>
+      <h1 class="hero-title" id="hero-title">
+        Code Like a<br />
+        <span class="neon-text-purple">Cyber</span>
+        <span class="neon-text-cyan">Genius</span>
+        <span class="hero-emoji"> 🧠</span>
+      </h1>
+      <p class="hero-subtitle" id="hero-subtitle">
+        Tutorials. Resources. Vibes. ✨<br />
+        Learn to build real-world projects with <strong>Coding With Mamta</strong>
+      </p>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-pill" id="stat-subs">
+          <span class="stat-num">50K+</span>
+          <span class="stat-label">Subscribers</span>
+        </div>
+        <div class="stat-pill" id="stat-vids">
+          <span class="stat-num">200+</span>
+          <span class="stat-label">Videos</span>
+        </div>
+        <div class="stat-pill" id="stat-res">
+          <span class="stat-num">FREE</span>
+          <span class="stat-label">Resources</span>
+        </div>
+      </div>
+      <div class="hero-buttons" id="hero-buttons">
+        <a href="#videos" class="btn btn-primary btn-large" id="hero-watch-btn">
+          <span>▶</span> Watch Now
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-secondary btn-large" id="hero-subscribe-btn">
+          Subscribe Free
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual float-anim-delayed" id="hero-visual">
+      <div class="terminal-card" id="terminal-card">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">mamta_code.py</span>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <div class="code-line"><span class="kw">def</span> <span class="fn">learn_with_mamta</span><span class="px">(you):</span></div>
+          <div class="code-line indent"><span class="str">"""Level up your coding game"""</span></div>
+          <div class="code-line indent"><span class="kw">while</span> <span class="vr">you.curious</span><span class="px">:</span></div>
+          <div class="code-line indent2"><span class="vr">you</span><span class="px">.</span><span class="fn">watch_tutorial</span><span class="px">()</span></div>
+          <div class="code-line indent2"><span class="vr">you</span><span class="px">.</span><span class="fn">download_resources</span><span class="px">()</span></div>
+          <div class="code-line indent2"><span class="vr">you</span><span class="px">.</span><span class="fn">build_project</span><span class="px">()</span></div>
+          <div class="code-line indent2"><span class="vr">you</span><span class="px">.</span><span class="vr">skills</span> <span class="px">+=</span> <span class="num">1</span></div>
+          <div class="code-line indent"><span class="kw">return</span> <span class="str">"🚀 You're unstoppable!"</span></div>
+          <div class="code-line">&nbsp;</div>
+          <div class="code-line"><span class="fn">learn_with_mamta</span><span class="px">(</span><span class="str">you</span><span class="px">)</span> <span class="cm"># 👈 Start here</span></div>
+          <div class="cursor-blink">█</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE TICKER ===== -->
+  <div class="ticker-wrap" id="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track">
+      <span class="ticker-item">⚡ Python Crash Course</span>
+      <span class="ticker-item">🎯 JavaScript Mastery</span>
+      <span class="ticker-item">🔥 React JS Full Course</span>
+      <span class="ticker-item">🧠 Data Structures & Algorithms</span>
+      <span class="ticker-item">🤖 Machine Learning Basics</span>
+      <span class="ticker-item">🌐 Web Dev Bootcamp</span>
+      <span class="ticker-item">💾 Free Download Resources</span>
+      <span class="ticker-item">📦 Django & Flask</span>
+      <!-- Duplicate for seamless loop -->
+      <span class="ticker-item">⚡ Python Crash Course</span>
+      <span class="ticker-item">🎯 JavaScript Mastery</span>
+      <span class="ticker-item">🔥 React JS Full Course</span>
+      <span class="ticker-item">🧠 Data Structures & Algorithms</span>
+      <span class="ticker-item">🤖 Machine Learning Basics</span>
+      <span class="ticker-item">🌐 Web Dev Bootcamp</span>
+      <span class="ticker-item">💾 Free Download Resources</span>
+      <span class="ticker-item">📦 Django & Flask</span>
+    </div>
+  </div>
+
+  <!-- ===== VIDEO GALLERY ===== -->
+  <section class="videos-section" id="videos">
+    <div class="section-header" id="videos-header">
+      <div class="section-tag">📹 Latest Videos</div>
+      <h2 class="section-title" id="videos-title">
+        Tutorials That <span class="neon-text-cyan">Hit Different</span>
+      </h2>
+      <p class="section-subtitle">No cap, these are the best coding tutorials you'll find. Download free resources with every vid! 💯</p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="filter-tabs" id="filter-tabs" role="tablist" aria-label="Video categories">
+      <button class="tab active" id="tab-all" role="tab" aria-selected="true" data-filter="all">All</button>
+      <button class="tab" id="tab-python" role="tab" aria-selected="false" data-filter="python">Python</button>
+      <button class="tab" id="tab-web" role="tab" aria-selected="false" data-filter="web">Web Dev</button>
+      <button class="tab" id="tab-js" role="tab" aria-selected="false" data-filter="js">JavaScript</button>
+      <button class="tab" id="tab-ml" role="tab" aria-selected="false" data-filter="ml">ML / AI</button>
+    </div>
+
+    <!-- Video Grid -->
+    <div class="video-grid" id="video-grid">
+
+      <!-- Card 1 -->
+      <article class="video-card float-anim" id="card-1" data-category="python" style="--float-delay: 0s;">
+        <div class="card-glow"></div>
+        <div class="thumbnail-wrap" id="thumb-wrap-1">
+          <img src="images/thumb1.png" alt="Python Basics for Beginners thumbnail" class="thumbnail" loading="lazy" />
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-1" aria-label="Play video">▶</div>
+          </div>
+          <span class="duration-badge">42:18</span>
+          <span class="category-badge python">Python</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" id="card-title-1">Python Basics for Absolute Beginners 🐍</h3>
+          <p class="card-meta">
+            <span class="meta-views">👁 128K views</span>
+            <span class="meta-date">2 weeks ago</span>
+          </p>
+          <p class="card-desc">Start your Python journey from zero. No prior experience needed. We cover variables, loops, functions and more!</p>
+          <a href="#" class="btn btn-download" id="download-1" aria-label="Download resources for Python Basics">
+            <span class="download-icon">⬇</span> Download Resources
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="video-card float-anim" id="card-2" data-category="js" style="--float-delay: 0.6s;">
+        <div class="card-glow"></div>
+        <div class="thumbnail-wrap" id="thumb-wrap-2">
+          <img src="images/thumb2.png" alt="JavaScript Mastery thumbnail" class="thumbnail" loading="lazy" />
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-2" aria-label="Play video">▶</div>
+          </div>
+          <span class="duration-badge">1:05:44</span>
+          <span class="category-badge js">JS</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" id="card-title-2">JavaScript Mastery – ES6 to Pro ⚡</h3>
+          <p class="card-meta">
+            <span class="meta-views">👁 95K views</span>
+            <span class="meta-date">1 month ago</span>
+          </p>
+          <p class="card-desc">Arrow functions, destructuring, promises, async/await — we cover ALL of modern JS with real examples.</p>
+          <a href="#" class="btn btn-download" id="download-2" aria-label="Download resources for JavaScript Mastery">
+            <span class="download-icon">⬇</span> Download Resources
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="video-card float-anim" id="card-3" data-category="web" style="--float-delay: 1.2s;">
+        <div class="card-glow"></div>
+        <div class="thumbnail-wrap" id="thumb-wrap-3">
+          <img src="images/thumb3.png" alt="HTML & CSS Full Course thumbnail" class="thumbnail" loading="lazy" />
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-3" aria-label="Play video">▶</div>
+          </div>
+          <span class="duration-badge">55:20</span>
+          <span class="category-badge web">Web</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" id="card-title-3">HTML & CSS Full Course – Build Real Sites 🌐</h3>
+          <p class="card-meta">
+            <span class="meta-views">👁 210K views</span>
+            <span class="meta-date">3 months ago</span>
+          </p>
+          <p class="card-desc">From blank page to beautiful websites. Learn Flexbox, Grid, responsive design and more with hands-on projects.</p>
+          <a href="#" class="btn btn-download" id="download-3" aria-label="Download resources for HTML & CSS">
+            <span class="download-icon">⬇</span> Download Resources
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="video-card float-anim" id="card-4" data-category="web" style="--float-delay: 0.3s;">
+        <div class="card-glow"></div>
+        <div class="thumbnail-wrap" id="thumb-wrap-4">
+          <img src="images/thumb4.png" alt="React JS Complete Guide thumbnail" class="thumbnail" loading="lazy" />
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-4" aria-label="Play video">▶</div>
+          </div>
+          <span class="duration-badge">2:10:33</span>
+          <span class="category-badge web">React</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" id="card-title-4">React JS Complete Guide – Hooks & Beyond 🔥</h3>
+          <p class="card-meta">
+            <span class="meta-views">👁 175K views</span>
+            <span class="meta-date">2 months ago</span>
+          </p>
+          <p class="card-desc">Build production-ready React apps. Components, useState, useEffect, Context API, React Router — it's all here.</p>
+          <a href="#" class="btn btn-download" id="download-4" aria-label="Download resources for React JS">
+            <span class="download-icon">⬇</span> Download Resources
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="video-card float-anim" id="card-5" data-category="python" style="--float-delay: 0.9s;">
+        <div class="card-glow"></div>
+        <div class="thumbnail-wrap" id="thumb-wrap-5">
+          <img src="images/thumb5.png" alt="Data Structures & Algorithms thumbnail" class="thumbnail" loading="lazy" />
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-5" aria-label="Play video">▶</div>
+          </div>
+          <span class="duration-badge">1:30:05</span>
+          <span class="category-badge python">DSA</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" id="card-title-5">Data Structures & Algorithms in Python 🧠</h3>
+          <p class="card-meta">
+            <span class="meta-views">👁 88K views</span>
+            <span class="meta-date">5 weeks ago</span>
+          </p>
+          <p class="card-desc">Arrays, linked lists, trees, graphs, sorting algorithms — crack any coding interview with this comprehensive guide.</p>
+          <a href="#" class="btn btn-download" id="download-5" aria-label="Download resources for DSA">
+            <span class="download-icon">⬇</span> Download Resources
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="video-card float-anim" id="card-6" data-category="ml" style="--float-delay: 1.5s;">
+        <div class="card-glow"></div>
+        <div class="thumbnail-wrap" id="thumb-wrap-6">
+          <img src="images/thumb6.png" alt="Machine Learning Crash Course thumbnail" class="thumbnail" loading="lazy" />
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-6" aria-label="Play video">▶</div>
+          </div>
+          <span class="duration-badge">1:48:22</span>
+          <span class="category-badge ml">ML/AI</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" id="card-title-6">Machine Learning Crash Course 🤖</h3>
+          <p class="card-meta">
+            <span class="meta-views">👁 142K views</span>
+            <span class="meta-date">1 month ago</span>
+          </p>
+          <p class="card-desc">From linear regression to neural networks — understand ML concepts with real Python code and visual explanations.</p>
+          <a href="#" class="btn btn-download" id="download-6" aria-label="Download resources for Machine Learning">
+            <span class="download-icon">⬇</span> Download Resources
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="load-more-wrap" id="load-more-wrap">
+      <button class="btn btn-outline" id="load-more-btn">Load More Videos ✨</button>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-text" id="about-text">
+        <div class="section-tag">👩‍💻 About</div>
+        <h2 class="section-title">Meet <span class="neon-text-purple">Mamta</span></h2>
+        <p class="about-desc">
+          Hey bestie! 👋 I'm Mamta — a developer, educator, and your coding hype person. I created this channel because I believe great coding education should be <strong>free, fun, and actually useful</strong>.
+        </p>
+        <p class="about-desc">
+          No gatekeeping. No boring lectures. Just real projects, clean explanations, and resources you can download and use right away. fr fr 💯
+        </p>
+        <div class="about-skills" id="about-skills">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Django</span>
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">Web Dev</span>
+          <span class="skill-tag">Git & GitHub</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-primary" id="about-yt-btn">
+          ▶ Check Out My Channel
+        </a>
+      </div>
+      <div class="about-visual" id="about-visual">
+        <div class="glow-card" id="about-glow-card">
+          <div class="about-avatar" id="about-avatar">
+            <span class="avatar-emoji">👩‍💻</span>
+            <div class="avatar-ring ring-1"></div>
+            <div class="avatar-ring ring-2"></div>
+            <div class="avatar-ring ring-3"></div>
+          </div>
+          <div class="about-stats-grid" id="about-stats-grid">
+            <div class="about-stat-item">
+              <span class="about-stat-num" data-target="50000">0</span>
+              <span class="about-stat-label">Subscribers</span>
+            </div>
+            <div class="about-stat-item">
+              <span class="about-stat-num" data-target="200">0</span>
+              <span class="about-stat-label">Videos</span>
+            </div>
+            <div class="about-stat-item">
+              <span class="about-stat-num" data-target="1000000">0</span>
+              <span class="about-stat-label">Views</span>
+            </div>
+            <div class="about-stat-item">
+              <span class="about-stat-num" data-target="5">0</span>
+              <span class="about-stat-label">Years</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA SECTION ===== -->
+  <section class="contact-section" id="contact">
+    <div class="contact-inner" id="contact-inner">
+      <div class="contact-glow-orb orb-1"></div>
+      <div class="contact-glow-orb orb-2"></div>
+      <div class="section-tag">📬 Stay Connected</div>
+      <h2 class="section-title" id="contact-title">
+        Don't Miss a <span class="neon-text-cyan">Single Drop</span> 🔔
+      </h2>
+      <p class="section-subtitle" id="contact-subtitle">Subscribe to get notified about new videos, free resources, and coding challenges. It's free and always will be.</p>
+      <div class="social-links" id="social-links">
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="social-btn youtube" id="social-youtube" aria-label="YouTube channel">
+          <span class="social-icon">▶</span>
+          <span>YouTube</span>
+        </a>
+        <a href="#" class="social-btn instagram" id="social-instagram" aria-label="Instagram profile">
+          <span class="social-icon">📸</span>
+          <span>Instagram</span>
+        </a>
+        <a href="#" class="social-btn twitter" id="social-twitter" aria-label="Twitter profile">
+          <span class="social-icon">🐦</span>
+          <span>Twitter</span>
+        </a>
+        <a href="#" class="social-btn discord" id="social-discord" aria-label="Discord community">
+          <span class="social-icon">💬</span>
+          <span>Discord</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo" id="footer-logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Coding<span class="logo-accent">With</span>Mamta</span>
+      </div>
+      <p class="footer-copy">
+        © 2024 Coding With Mamta. Made with 💜 and ☕ | All resources are free for learners.
+      </p>
+      <div class="footer-links" id="footer-links">
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">Resources</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Download Modal -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">✕</button>
+      <div class="modal-icon">📦</div>
+      <h3 class="modal-title" id="modal-title">Resources Incoming!</h3>
+      <p class="modal-body">Your free resources are ready for download. Make sure to subscribe to get notified when new resources drop! 🔔</p>
+      <div class="modal-buttons">
+        <a href="#" class="btn btn-primary" id="modal-download-btn">⬇ Download Now</a>
+        <button class="btn btn-secondary" id="modal-close-btn">Maybe Later</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
